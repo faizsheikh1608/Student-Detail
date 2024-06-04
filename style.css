@@ -1,0 +1,86 @@
+#nav{
+    background-color: black;
+    
+}
+*{
+    padding: 0px;
+    margin : 0px;
+   
+}
+
+
+
+#nav>h1{
+    color : rgba(255, 255, 255, 1);
+    padding : 10px;
+    margin-inline: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero{
+    background-color:  rgba(205, 205, 205, 1);
+    padding-top: 10px;
+
+}
+
+.Search_bar{
+    margin-inline: 20px;
+    
+    
+}
+
+#search{
+
+    width:88%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 0px;
+    background-color: rgba(217, 217, 217, 1);
+    
+}
+
+.Search_bar>button{
+    background-color: black;
+    color : rgba(255, 255, 255, 1);
+    height : 40px;
+    padding-inline: 53px;
+}   
+
+.buttons{
+    margin-top: 20px;
+    margin-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buttons>button{
+    background-color: black ;
+    color : rgba(255, 255, 255, 1);
+    height : 40px;
+    padding-inline: 60px;
+    
+}
+
+table {
+    width: 97%;
+    margin-inline: auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: rgba(217, 217, 217, 1);
+    ;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+
+.col{
+    width:150px;
+}
+
